@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 19.4rem;
+    height: 31.5rem;
+    border: 2px solid #673838;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    background: #1b1717;
+    background: black;
+    opacity: 0.9;
+    border: 2px solid balck;
+    border-radius: 10px;
+}
+
+.keys {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.key {
+    border: 1px solid black;
+    /* background-color: black; */
+    width: 4.7rem;
+    height: 3rem;
+    background-color: rgba(21, 23, 30, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.operators {
+    background-color: rgba(65, 76, 115, 0.5);
+
+}
+
+.display {
+    position: relative;
+    width: 100%;
+    height: 11.5rem;
+    color: #fff;
+}
+
+#number {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: xxx-large;
+    padding-right: 12px;
+    background-color: #1b1717;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-align: right;
+    input-security: none;
+    background-color: black;
+    direction: rtl;
+    
+}
+
+#equals {
+    background-color: rgba(89, 60, 104, 0.8);
+}
+
+.operators:hover {
+    background-color: rgba(89, 60, 104, 0.1);
+}
+#number2{
+    background-color: #1b1717;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: x-large;
+    position: absolute;
+    bottom: 68px;
+    right: 0;
+    text-align: right;
+    padding-right: 20px;
+    overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+#equals:active{
+    background-color: orangered;
+}
+.key:active{
+    background-color: orangered;
+}
+@media screen and (min-width:1800px) {
+    
+#equals:hover {
+    background-color: rgba(89, 60, 104, 0.5);
+}
+
+.key:hover {
+    background-color: rgba(4, 4, 4, 0.4);
+}
+
+}
